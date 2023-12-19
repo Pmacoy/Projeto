@@ -10,6 +10,7 @@
     width: 100vw;
     font-family: 'League Spartan', sans-serif;
     color: #233E3F;
+    font-weight: 1000;
   }
     
   .social, .socialp, header{
@@ -36,12 +37,35 @@
     color: #FAF6EB;
     cursor: pointer;
     font-size: 50px;
+    display: none;
+  }
+
+  #burguer:hover {
+    background-color: #FAF6EB;
+    color: black;
   }
 
   #search {
     color: #FAF6EB;
     cursor: pointer;
     font-size: 40px;
+  }
+
+  #search:hover {
+    background-color: #FAF6EB;
+    color: black;
+  }
+
+  #seta {
+    color: #233E3F;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 1000;
+  }
+
+  #seta:hover {
+    background-color: #233E3F;
+    color: #FAF6EB;
   }
 
   .socialp {
@@ -52,7 +76,7 @@
     
   }
 
-  .social {
+   .social {
     justify-content: right;
     align-items: center;
     list-style: none;
@@ -75,6 +99,17 @@
     list-style: none;
     margin-top: auto; 
     margin-bottom: auto;
+    margin-right: 250px;
+    gap: 50px;
+  }
+
+  @media  (max-width: 800px){
+    .pages {
+      display: none;
+    }
+    #burguer {
+      display: block;
+    }
   }
 
   .carrossel {
