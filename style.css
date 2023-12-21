@@ -37,7 +37,7 @@
     color: #FAF6EB;
     cursor: pointer;
     font-size: 50px;
-    display: none;
+    display: flex;
   }
 
   #burguer:hover {
