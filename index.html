@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="Podcasts" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="imagem/Design_sem_nome__9_-removebg-preview.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://fonts.googleapis.com/css2?family=League+Spartan&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <title>Podcasts</title>
@@ -27,7 +30,7 @@
             </ul>
         </nav>
         <nav class="page">
-            <img src="src/img/Telescopium_logo.png" alt="">
+            <img src="/imagem/Telescopium_logo.png" alt="logo">
             <ul class="pages">
                 <li></li>
                 <li><p>FILMES/SÉRIES <span id="seta" class="material-symbols-outlined">expand_more</span></p></li>
@@ -39,80 +42,90 @@
             </ul>
         </nav>
 </header>
-
-
-    <section>
-        <div>
-
-       <img src="/Imagens/nerd.jfif" alt="Imagem Podcast NERDCAST">
-       <h1>NERDCAST</h1> 
-       <h5>Histories e perrengues de eventos nerds. </h5>
-
-       <img src="/Imagens/som sem fundo.png" alt="ícone de som">
-       <input type="button" value="">
-
-       <img src="/Imagens/youtube sem fundo.png" alt="ícone do youtube">
-       <input type="button" value="">
-
-       <img src="/Imagens/spotify sem fundo.png" alt="ícone de spotify">
-       <input type="button" value="">
-
-       <img src="/Imagens/compartilhar sem fundo.png" alt="ícone de compartilhar">
-       <input type="button" value="">
-
-
-       <img src="/Imagens/cartas.jfif" alt="Imagem Podcast Cartas de um Terapeuta">
-       <h1>CARTAS DE UM TERAPEUTA</h1> 
-       <h5>As cartas são a escrita que a alma faz, sem rodeios, para as perguntas que nos inquietam, para aquilo que nos atravessa, para a vida que tem urgência de ser dita. Em palavras faladas, as cartas são o sopro que nos conecta por um instante. Abra este envelope, ele é pra você. Vai começar mais um episódio do “Cartas de um terapeuta”. Cartas de um Terapeuta é um podcast apresentado por Alexandre Coimbra Amaral.</h5>
-
-       <img src="/Imagens/som sem fundo.png" alt="ícone de som">
-       <input type="button" value="">
-
-       <img src="/Imagens/youtube sem fundo.png" alt="ícone do youtube">
-       <input type="button" value="">
-
-       <img src="/Imagens/spotify sem fundo.png" alt="ícone de spotify">
-       <input type="button" value="">
-
-       <img src="/Imagens/compartilhar sem fundo.png" alt="ícone de compartilhar">
-       <input type="button" value="">
-
-
-       <img src="/Imagens/cats.jpg" alt="Imagem Podcast Podcast">
-       <h1>PODCATS</h1> 
-       <h5>Camila Loures e Lucas Guimarães se unem para bater um papo super descontraído e animado no PODCATS!</h5>
-       <img src="/Imagens/som sem fundo.png" alt="ícone de som">
-       <input type="button" value="">
-
-       <img src="/Imagens/youtube sem fundo.png" alt="ícone do youtube">
-       <input type="button" value="">
-
-       <img src="/Imagens/spotify sem fundo.png" alt="ícone de spotify">
-       <input type="button" value="">
-
-       <img src="/Imagens/compartilhar sem fundo.png" alt="ícone de compartilhar">
-       <input type="button" value="">
-
-
-       <img src="/Imagens/flow.jpg" alt="Imagem Podcast Flow">
-       <h1>FLOW</h1> 
-       <h5>Flow Podcast acontece todo dia de segunda à sexta, normalmente às 20h, AO VIVO simultaneamente no Youtube, Twitch e Facebook!</h5>
-       <img src="/Imagens/som sem fundo.png" alt="ícone de som">
-       <input type="button" value="">
-
-       <img src="/Imagens/youtube sem fundo.png" alt="ícone do youtube">
-       <input type="button" value="">
-
-       <img src="/Imagens/spotify sem fundo.png" alt="ícone de spotify">
-       <input type="button" value="">
-
-       <img src="/Imagens/compartilhar sem fundo.png" alt="ícone de compartilhar">
-       <input type="button" value="">
-        </div>            
+    <section class="pods">
+        <div class="container">
+            <div class="listapods">
+                    <img src="/imagem/nerd.jfif" class="img_pods" alt="Imagem Podcast NERDCAST">
+                    <div class="itens">
+                        <i class="fa fa-volume-up" aria-hidden="true"></i>
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        <i class="fa fa-spotify" aria-hidden="true"></i>
+                        <i class="fa fa-share-square-o" aria-hidden="true"></i>
+                    </div>
+                    <h3>NERDCAST - Lendas da Segunda Guerra Mundial</h3>
+                    <P>Histories e perrengues de eventos nerds.O Nerdcast é um dos podcasts revolucionários sobre Cultura Nerd no Brasil e no Mundo, já tendo alcançado mais de um bilhão de downloads em seus episódios.</P>
+            </div>
+            <div class="listapods">
+                <img src="/imagem/cartas.jfif" class="img_pods" alt="Imagem Podcast cartas">
+                    <div class="itens">
+                        <i class="fa fa-volume-up" aria-hidden="true"></i>
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        <i class="fa fa-spotify" aria-hidden="true"></i>
+                        <i class="fa fa-share-square-o" aria-hidden="true"></i>
+                    </div>
+                    <h3>CARTAS DE UM TERAPEUTA</h3>
+                    <P>As cartas são a escrita que a alma faz, sem rodeios, para as perguntas que nos inquietam, para aquilo que nos atravessa, para a vida que tem urgência de ser dita. Em palavras faladas, as cartas são o sopro que nos conecta por um instante. Abra este envelope, ele é pra você. Vai começar mais um episódio do “Cartas de um terapeuta”. Cartas de um Terapeuta é um podcast apresentado por Alexandre Coimbra Amaral.</P>
+            </div>
+            <div class="listapods">
+                <img src="/imagem/cats.jpg" class="img_pods" alt="Imagem Podcast cats">
+                    <div class="itens">
+                        <i class="fa fa-volume-up" aria-hidden="true"></i>
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        <i class="fa fa-spotify" aria-hidden="true"></i>
+                        <i class="fa fa-share-square-o" aria-hidden="true"></i>
+                    </div>
+                    <h3>PODCATS</h3>
+                    <P>Camila Loures e Lucas Guimarães se unem para bater um papo super descontraído e animado no PODCATS!</P>
+            </div>
     </section>
-
-    <footer>
+    <section class="pods">
+        <div class="container">
+            <div class="listapods">
+                    <img src="/imagem/flow.jpg" class="img_pods" alt="Imagem Podcast flow">
+                    <div class="itens">
+                        <i class="fa fa-volume-up" aria-hidden="true"></i>
+                        <i class="fa fa-youtube-play" aria-hidden="true"></i>
+                        <i class="fa fa-spotify" aria-hidden="true"></i>
+                        <i class="fa fa-share-square-o" aria-hidden="true"></i>
+                    </div>
+                    <h3>FLOW</h3>
+                    <P>Flow Podcast acontece todo dia de segunda à sexta, normalmente às 20h, AO VIVO simultaneamente no Youtube, Twitch e Facebook!</P>
+            </div>
+            <div class="listapods">
+                <img src="/imagem/ossocios.jfif" class="img_pods" alt="Imagem Podcast os socios">
+                    <div class="itens">
+                        <i class="fa fa-volume-up" aria-hidden="true"></i>
+                        <a href= "https://www.youtube.com/live/5xfzGQfzWXw?si=3n0ZYQ-b9TQnQxN6"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        <a href="https://open.spotify.com/episode/0JkBsZ1tKoHjxSugnz5olb?si=NZYY38zdSL2vny8WVDTCrg"><i class="fa fa-spotify" aria-hidden="true"></i></a>
+                        <i class="fa fa-share-square-o" aria-hidden="true"></i>
+                    </div>
+                    <h3>OS SÓCIOS - ONDE INVESTIR EM 2024?</h3>
+                    <P>Bruno Perini e Malu Perini são sócios no matrimônio, na vida e nos negócios. Toda quinta-feira você pode esperar um podcast muito divertido e com convidados especiais para falar de temas relacionados ao mundo do empreendedorismo, dinheiro e desenvolvimento pessoal.</P>
+            </div>
+            <div class="listapods">
+                <img src="/imagem/nerd.jfif" class="img_nerd" alt="Imagem Podcast NERDCAST">
+                    <div class="itens">
+                        <i class="fa fa-volume-up" aria-hidden="true"></i>
+                        <a href="https://youtu.be/6XGtONyOFBA?si=NRi0Y4uSdj98bmQU"><i class="fa fa-youtube-play" aria-hidden="true"></i></a>
+                        <a href="https://open.spotify.com/episode/7CFEZAEPwzsxsyZ1f6wuNY?si=qblm1K0mQgSLp-UIjpZSdA"><i class="fa fa-spotify" aria-hidden="true"></i></a>
+                        <i class="fa fa-share-square-o" aria-hidden="true"></i>
+                    </div>
+                    <h3>O ASSUNTO - AS CIDADES ESCONDIDAS DA AMAZÔNIA</h3>
+                    <P>Um grande assunto do momento discutido com profundidade. Natuza Nery vai conversar com jornalistas e analistas da TV Globo, do G1, da GloboNews e dos demais veículos do Grupo Globo para contextualizar, explicar e trazer um ângulo diferente dos assuntos mais relevantes do Brasil e do mundo, além de contar histórias e entrevistar especialistas e personagens diretamente envolvidos na notícia. </P>
+            </div> 
+        </div>
+    </section>
     
+    <footer>
+        <div class="rodape">
+            <div class="logoRodape">
+                <img src="/imagem/Telescopium_logo.png" alt="logo">
+                <p>Obrigado por escolher o Telescopium como sua fonte de informação confiável.</p>
+            </div>
+        </div>        
+        <div class="copy">
+            <p>&copy; 2023 Telescopium. Todos os direitos reservados.</p>
+        </div>
     </footer>
 
 </body>

@@ -17,6 +17,7 @@
     
   .social, .socialp, header{
     background-color: #000000;
+    min-height: 10px;
     
   }
   
@@ -113,3 +114,81 @@
       display: block;
     }
   }
+  
+  .container{
+display: flex;
+justify-content: center;
+font-family: 'League Spartan', sans-serif;
+padding: 30px;
+  }
+
+  .container .listapods{
+    background-color:#FAF6EB;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+    color: #213D3F;
+  }
+
+  .container .listapods img{
+    border-radius: 14px;
+    margin: 20px;
+    width: 230px;
+  }
+
+.container .listapods .itens{
+  display: flex;
+  width: 200px;
+  border-radius: 100%;
+  margin:15px auto;
+  font-size: 35px;
+  margin-bottom:15px;
+  padding-bottom: 10px;
+  justify-content: space-between;
+}
+
+.container .listapods h3{
+  font-weight: 600;
+  font-size: 20px;
+  border-top: 1px solid #213d3f;
+  padding: 15px;
+
+}
+.container .listapods p{
+  font-size: 15px;
+  padding: 15px;
+  font-weight: 100;
+}
+
+.rodape{
+  background-color: #FAF6EB;
+  width: 100%;
+}
+
+.logoRodape img{
+  width: 250px;
+  margin: 10px;
+
+}
+.logoRodape p{
+  align-items: center;
+}
+
+.copy{
+  display: flex;
+  justify-content: center;
+  background-color: #213D3F;
+  width: 100%;
+  color: #FAF6EB;
+  padding: 10px;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+  .rodape{
+    grid-template-columns: repeat(2,1fr);
+    gap: 30px;
+  }  
+}
