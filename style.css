@@ -44,12 +44,12 @@
   }
   
   .bi{
-    color: #233E3F;
+    color: #FAF6EB;
   }
   
 
   .social, .socialp, header{
-    background-color: #faf3e0; 
+    background-color: #233E3F; 
     font-size: 30px;
 
   }
@@ -69,7 +69,7 @@
   }
 
   #burguer {
-    color: #233E3F;
+    color: #FAF6EB;
     cursor: pointer;
     font-size: 50px;
     display: flex;
@@ -81,7 +81,7 @@
   }
 
   #search, .btn-close {
-    color: #233E3F;
+    color: #FAF6EB;
     min-width: 60px;
     height: 60px;
     display: flex;
