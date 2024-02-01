@@ -49,7 +49,7 @@
   
 
   .social, .socialp, header{
-    background-color: #233E3F; 
+    background-color: black; 
     font-size: 30px;
 
   }
@@ -122,14 +122,14 @@
   }
 
   .pages{
-    justify-content: right;
+    height: 100%;
     font-size: 25px;
     font-weight: bolder;
     align-content: center;
     list-style: none;
-    margin-top: auto; 
-    margin-bottom: auto;
-    margin-right: 680px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
     gap: 50px;
   }
 
