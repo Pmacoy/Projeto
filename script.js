@@ -46,4 +46,8 @@ controls.forEach((control) => {
   });
 });
 
+<<<<<<< HEAD
 setInterval(slider, 5000);
+=======
+setInterval(slider, 7000);
+>>>>>>> paulo
