@@ -45,9 +45,5 @@ controls.forEach((control) => {
     items[currentItem].classList.add("current-item");
   });
 });
-
-<<<<<<< HEAD
-setInterval(slider, 5000);
-=======
 setInterval(slider, 7000);
->>>>>>> paulo
+
