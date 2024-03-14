@@ -1,20 +1,14 @@
-document.addEventListener('DOMContentLoaded', function () {
-    var modal = document.getElementById('modal');
-    var fade = document.getElementById('fade');
-    var mostrarPlayer1 = document.getElementById('mostrarPlayer1');
-    var closeBtn = document.getElementById('close-modal');
-    
-    mostrarPlayer1.addEventListener('click', function () {
-        modal.classList.remove('hide');
-        fade.classList.remove('hide');
-    });
-    
-    closeBtn.addEventListener('click', function () {
-        modal.classList.add('hide');
-        fade.classList.add('hide');
-    });
-    fade.addEventListener('click', function () {
-        modal.classList.add('hide');
-        fade.classList.add('hide');
-    });
- });
+const openModalButton = document.querySelector("#mostrarPlayer1");
+const openModalButton2 = document.querySelector("#mostrarPlayer2");
+const closeModalButton = document.querySelector("#close-modal");
+const modal = document.querySelector("#modal");
+const fade = document.querySelector("#fade");
+
+const toggleModal = () => {
+  modal.classList.toggle("hide");
+  fade.classList.toggle("hide");
+};
+
+[openModalButton, closeModalButton, fade].forEach((el) => {
+  el.addEventListener("click", () => toggleModal());
+});
