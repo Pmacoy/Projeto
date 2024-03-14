@@ -217,3 +217,18 @@
   .visible {
     display: block;
   }
+  .footer {
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+    margin-top: auto;
+    background-color: #233E3F;
+    margin-top: 205px;
+  }
+  
+  .title-footer {
+    font-size: 19px;
+    font-family: 'League Spartan', sans-serif;
+    color: #faf3e0;
+    text-align: center ;
+  }
